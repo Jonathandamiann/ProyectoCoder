@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap");
+* {
+  /*reseteo de los margentes*/
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+.boton {
+  height: 40px;
+  width: 150px;
+  background-color: #808d45;
+  text-align: center;
+  font-size: 18px;
+  line-height: 40px;
+  border: 3px solid #291414;
+  font-family: sans-serif;
+  color: #962c2c;
+  transition: all 1.5s;
+}
+
+.boton :hover {
+  background: #c6eb24;
+  text-decoration: none;
+}
+
+.b1 {
+  background-color: #7e8a71;
+  transform: translate(15px, 15px);
+}
+
+.b2 {
+  background-color: #7e8a71;
+  transform: translate(15px, 15px);
+}
+
+.b3 {
+  background-color: #7e8a71;
+  transform: translate(15px, 15px);
+}
+
+.b4 {
+  background-color: #7e8a71;
+  transform: translate(15px, 15px);
+}
+
+.b5 {
+  background-color: #7e8a71;
+  transform: translate(15px, 15px);
+}
+
+.b6 {
+  background-color: #7e8a71;
+  transform: translate(15px, 15px);
+}
+
+.boton:nth-child(1) {
+  display: block;
+  transform-origin: bottom center;
+}
+
+.boton:nth-child(1):hover {
+  transform: translate(60px, 15px);
+}
+
+.boton:nth-child(2) {
+  display: block;
+  transform-origin: bottom center;
+}
+
+.boton:nth-child(2):hover {
+  transform: translate(60px, 15px);
+}
+
+.boton:nth-child(3) {
+  display: block;
+  transform-origin: bottom center;
+}
+
+.boton:nth-child(3):hover {
+  transform: translate(60px, 15px);
+}
+
+.boton:nth-child(4) {
+  display: block;
+  transform-origin: bottom center;
+}
+
+.boton:nth-child(4):hover {
+  transform: translate(60px, 15px);
+}
+
+.boton:nth-child(5) {
+  display: block;
+  transform-origin: bottom center;
+}
+
+.boton:nth-child(5):hover {
+  transform: translate(60px, 15px);
+}
+
+.boton:nth-child(6) {
+  display: block;
+  transform-origin: bottom center;
+}
+
+.boton:nth-child(6):hover {
+  transform: translate(60px, 15px);
+}
+
+/*# sourceMappingURL=botonera.css.map */

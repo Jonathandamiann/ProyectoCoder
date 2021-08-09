@@ -1,0 +1,83 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Yellowtail&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap");
+@import "estilo.css";
+* {
+  /*reseteo de los margentes*/
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.main {
+  background-color: #44997d;
+  background-image: url(../../multimedia/imagenes/ImagenPrincipal.jpg);
+  background-position: left;
+  background-size: cover;
+  height: auto;
+  border: 3px solid #000c06;
+  border-bottom: 1, 1px;
+}
+
+.main__estilo {
+  color: #4fe215;
+  font-size: 25px;
+  -webkit-text-decoration: solid;
+          text-decoration: solid;
+  font-family: "Oswald", sans-serif;
+  text-transform: capitalize;
+  text-shadow: aqua 1px 1px;
+}
+
+.section__h2 {
+  color: #0a6cad;
+  text-align: center;
+  font-size: x-large;
+  text-transform: capitalize;
+}
+
+.form__h5 {
+  color: #e91b00;
+  text-transform: capitalize;
+  text-decoration: none;
+  font-size: 21px;
+}
+
+/* probe cambiando el valor de la variable color y funciona en naranja, azul o si pongo cualquier nombe sale con el else.*/
+.form__h5--fondo {
+  color: #0d8f38;
+}
+
+/*  .form__h5--fondo
+{
+   color: yellow;
+   font-size: $tam1 + $tam2;
+
+}*/
+.footer__div--p {
+  color: #615858;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  text-transform: lowercase;
+  line-height: 40px;
+  -webkit-text-decoration: solid;
+          text-decoration: solid;
+  font-family: "Oswald", sans-serif;
+  border: 3px solid #000c06;
+  border-top: 1px;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+/* aca usé el import solamente para tener el boton de ws  flotando, no tengo ninguna clase en estilo.css que me sirva para la solapa contacto
+.button #whatsapp{
+    position: fixed;
+    bottom: 60px;
+    right: 30px;
+    background: transparent;
+  }*/

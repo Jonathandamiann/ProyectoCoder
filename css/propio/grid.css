@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.h3Camperas {
+  padding-top: 16px;
+  text-align: center;
+  font-size: 30px;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  margin-bottom: 30px;
+  text-shadow: 5px 5px 10px #b4602b;
+}
+
+.mainCamperas {
+  background-color: #44997d;
+  background-image: url(multimedia/imagenes/ImagenPrincipal.jpg);
+  background-position: left;
+  background-size: cover;
+  height: 80vh;
+}
+
+.fondo {
+  /*
+              height: 400px;
+              width: auto;
+  */
+  background-color: darkgray;
+  width: 45%;
+  margin: auto;
+  height: auto;
+  padding: 0.3%;
+  display: grid;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+}
+
+.item {
+  min-height: 200px;
+  min-width: 200px;
+  background-color: aqua;
+  border: 2px solid #fff;
+}
+
+.item:hover {
+  transform: scale(1.5);
+  transition: 0.7s;
+  filter: sepia(1);
+  box-shadow: 5px 5px 10px 1px #000;
+}
+
+.item1 {
+  background-color: coral;
+  grid-column: 1;
+  grid-row: 2;
+  grid-row-start: 1;
+  grid-row-end: 4;
+  background-image: url(../../multimedia/imagenes/campera1.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.item2 {
+  grid-area: "item2";
+  background-color: cadetblue;
+  background-image: url(../../multimedia/imagenes/campera2.jpg);
+  background-size: cover;
+}
+
+.item3 {
+  grid-area: "item3";
+  background-color: fuchsia;
+  grid-column: 2;
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-column-start: 3;
+  grid-column-end: 4;
+  background-image: url(../../multimedia/imagenes/campera3.jpg);
+  background-size: cover;
+}
+
+.item4 {
+  grid-area: "item4";
+  background-color: forestgreen;
+  grid-column: 2;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  grid-column-start: 4;
+  grid-column-end: 5;
+  background-image: url(../../multimedia/imagenes/campera4.jpg);
+  background-size: cover;
+}
+
+.item5 {
+  grid-area: "item5";
+  background-color: firebrick;
+  background-image: url(../../multimedia/imagenes/campera5.jpg);
+  background-size: cover;
+  grid-row-start: 2;
+  grid-row-end: 4;
+}
+
+.item6 {
+  grid-area: "item6";
+  background-color: dodgerblue;
+  background-image: url(../../multimedia/imagenes/campera6.jpg);
+  background-size: cover;
+  grid-row-start: 2;
+  grid-row-end: 4;
+}
+
+.item7 {
+  grid-area: "item7";
+  background-color: deeppink;
+  background-image: url(../../multimedia/imagenes/campera7.jpg);
+  background-size: cover;
+  grid-row-start: 2;
+  grid-row-end: 4;
+}
+
+/*# sourceMappingURL=grid.css.map */
