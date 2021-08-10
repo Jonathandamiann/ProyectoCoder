@@ -40,7 +40,7 @@
   min-height: 200px;
   min-width: 200px;
   background-color: aqua;
-  border: 2px solid #fff;
+  border: 5px solid #fff;
 }
 
 .itemca:hover {
@@ -119,7 +119,7 @@
 
   .itemca4 {
     grid-row-start: 2;
-    grid-row-end: 4;
+    grid-row-end: 3;
   }
 
   .itemca2 {
@@ -170,6 +170,147 @@
   }
 
   .itemca5 {
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 8;
+  }
+}
+/* Peronalizacion de Pantalones */
+.itemPa {
+  min-height: 200px;
+  min-width: 200px;
+  background-color: aqua;
+  border: 5px solid #fff;
+}
+
+.itemPa:hover {
+  transform: scale(1.5);
+  transition: 0.7s;
+  filter: saturate(2);
+  filter: contrast(1.3);
+  box-shadow: 5px 5px 10px 1px #422121;
+}
+
+.itemPa1 {
+  grid-area: "itemPa1";
+  background-image: url(../../multimedia/imagenes/pantalones/1.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.itemPa2 {
+  grid-area: "itemPa2";
+  background-image: url(../../multimedia/imagenes/pantalones/2.png);
+  background-size: cover;
+}
+
+.itemPa3 {
+  grid-area: "itemPa3";
+  background-image: url(../../multimedia/imagenes/pantalones/3.png);
+  background-size: cover;
+}
+
+.itemPa4 {
+  grid-area: "itemPa4";
+  background-image: url(../../multimedia/imagenes/pantalones/4.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.itemPa5 {
+  grid-area: "itemPa5";
+  background-image: url(../../multimedia/imagenes/pantalones/5.png);
+  background-size: cover;
+}
+
+.itemPa6 {
+  grid-area: "itemPa6";
+  background-image: url(../../multimedia/imagenes/pantalones/6.png);
+  background-size: cover;
+  filter: brightness(1.3);
+}
+
+@media only screen and (min-width: 360px) {
+  .fondo {
+    background-color: #cdd4a3;
+  }
+}
+@media only screen and (min-width: 480px) {
+  .fondo {
+    background-color: #939989;
+    grid-template-columns: 1fr;
+  }
+
+  .item {
+    min-height: 200px;
+    min-width: 200px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .fondo {
+    background-color: #c5aa8a;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .itemPa1 {
+    grid-row-start: 1;
+    grid-row-end: 3;
+  }
+
+  .itemPa4 {
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+
+  .itemPa2 {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    background-position: center;
+  }
+
+  .itemPa6 {
+    grid-column-start: 2;
+    grid-column-end: 4;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .fondo {
+    background-color: #966363;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .mainPantalones {
+    height: 80vh;
+  }
+
+  .itemPa1 {
+    grid-row-start: 1;
+    grid-row-end: 8;
+    grid-column-start: 1;
+    grid-column-end: 1;
+  }
+
+  .itemPa4 {
+    grid-row-start: 1;
+    grid-row-end: 8;
+    grid-column-start: 4;
+  }
+
+  .itemPa2 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    background-position: center;
+  }
+
+  .itemPa6 {
+    grid-column-start: 3;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 8;
+  }
+
+  .itemPa5 {
     grid-column-start: 2;
     grid-column-end: 2;
     grid-row-start: 2;
