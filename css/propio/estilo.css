@@ -66,7 +66,7 @@ p {
 }
 
 footer {
-  background-color: #c4d8c4;
+  background-color: #575656;
 }
 
 .sectionIndex {
@@ -76,7 +76,7 @@ footer {
 }
 
 .parrafoFooter {
-  color: #615858;
+  color: #be7575;
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
@@ -180,6 +180,16 @@ footer {
   text-transform: uppercase;
   /*background-image: url(multimedia/imagenes/pantalon5.jpg);*/
   background-size: cover;
+}
+
+.footerNosotros{
+  align-items: center;
+  padding-left: 25%;
+  padding-bottom: 2px;
+}
+.footerNosotros a {
+  padding-left: 3%;
+
 }
 
 .itContact :hover {

@@ -317,5 +317,448 @@
     grid-row-end: 8;
   }
 }
+/* Peronalizacion de Remeras */
+.itemReme {
+  min-height: 200px;
+  min-width: 200px;
+  background-color: aqua;
+  border: 5px solid #fff;
+}
+
+.itemReme:hover {
+  transform: scale(1.3);
+  transition: 0.7s;
+  filter: saturate(2);
+  filter: contrast(1.3);
+  box-shadow: 5px 5px 10px 1px #422121;
+}
+
+.itemReme1 {
+  grid-area: "itemReme1";
+  background-image: url(../../multimedia/imagenes/remeras/1.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.itemReme2 {
+  grid-area: "itemReme2";
+  background-image: url(../../multimedia/imagenes/remeras/2.png);
+  background-size: cover;
+}
+
+.itemReme3 {
+  grid-area: "itemReme3";
+  background-image: url(../../multimedia/imagenes/remeras/3.png);
+  background-size: cover;
+}
+
+.itemReme4 {
+  grid-area: "itemReme4";
+  background-image: url(../../multimedia/imagenes/remeras/4.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.itemReme5 {
+  grid-area: "itemReme5";
+  background-image: url(../../multimedia/imagenes/remeras/5.png);
+  background-size: cover;
+}
+
+.itemReme6 {
+  grid-area: "itemReme6";
+  background-image: url(../../multimedia/imagenes/remeras/6.png);
+  background-size: cover;
+  filter: brightness(1.3);
+}
+
+@media only screen and (min-width: 360px) {
+  .fondo {
+    background-color: #cdd4a3;
+  }
+}
+@media only screen and (min-width: 480px) {
+  .fondo {
+    background-color: #939989;
+    grid-template-columns: 1fr;
+  }
+
+  .itemReme {
+    min-height: 200px;
+    min-width: 200px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .fondo {
+    background-color: #c5aa8a;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .itemRem1 {
+    grid-row-start: 1;
+    grid-row-end: 3;
+  }
+
+  .itemRem4 {
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+
+  .itemRem2 {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    background-position: center;
+  }
+
+  .itemRem6 {
+    grid-column-start: 2;
+    grid-column-end: 4;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .fondo {
+    background-color: #966363;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .mainPantalones {
+    height: 80vh;
+  }
+
+  .itemReme1 {
+    grid-row-start: 1;
+    grid-row-end: 8;
+    grid-column-start: 1;
+    grid-column-end: 1;
+  }
+
+  .itemReme4 {
+    grid-row-start: 1;
+    grid-row-end: 8;
+    grid-column-start: 4;
+  }
+
+  .itemReme2 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    background-position: center;
+  }
+
+  .itemReme6 {
+    grid-column-start: 3;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 8;
+  }
+
+  .itemReme5 {
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 8;
+  }
+}
+/* Peronalizacion de Calzado */
+.itemCal {
+  min-height: 200px;
+  min-width: 200px;
+  background-color: #90c9f7;
+  border: 5px solid #e6d0d0;
+}
+
+.itemCal:hover {
+  transform: scale(1.3);
+  transition: 0.7s;
+  filter: saturate(2);
+  filter: contrast(1.3);
+  box-shadow: 5px 5px 10px 1px #422121;
+}
+
+.itemCal1 {
+  grid-area: "itemCal1";
+  background-image: url(../../multimedia/imagenes/calzado/1.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.itemCal2 {
+  grid-area: "itemCal2";
+  background-image: url(../../multimedia/imagenes/calzado/2.png);
+  background-size: cover;
+}
+
+.itemCal3 {
+  grid-area: "itemCale3";
+  background-image: url(../../multimedia/imagenes/calzado/3.png);
+  background-size: cover;
+}
+
+.itemCal4 {
+  grid-area: "itemCal4";
+  background-image: url(../../multimedia/imagenes/calzado/4.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.itemCal5 {
+  grid-area: "itemCal5";
+  background-image: url(../../multimedia/imagenes/calzado/5.png);
+  background-size: cover;
+}
+
+.itemCal6 {
+  grid-area: "itemCal6";
+  background-image: url(../../multimedia/imagenes/calzado/6.png);
+  background-size: cover;
+  filter: brightness(1.3);
+}
+
+@media only screen and (min-width: 360px) {
+  .fondo {
+    background-color: #cdd4a3;
+  }
+}
+@media only screen and (min-width: 480px) {
+  .fondo {
+    background-color: #939989;
+    grid-template-columns: 1fr;
+  }
+
+  .mainPantalones {
+    height: auto;
+    padding-bottom: 2%;
+  }
+
+  .itemCal {
+    min-height: 200px;
+    min-width: 200px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .fondo {
+    background-color: #c5aa8a;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .itemCal1 {
+    grid-row-start: 1;
+    grid-row-end: 3;
+  }
+
+  .mainPantalones {
+    height: auto;
+    padding-bottom: 2%;
+  }
+
+  .itemCal4 {
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+
+  .itemCal2 {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    background-position: center;
+  }
+
+  .itemCal6 {
+    grid-column-start: 2;
+    grid-column-end: 4;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .fondo {
+    background-color: #966363;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .mainPantalones {
+    height: 80vh;
+  }
+
+  .itemCal1 {
+    grid-row-start: 1;
+    grid-row-end: 8;
+    grid-column-start: 1;
+    grid-column-end: 1;
+  }
+
+  .itemCal4 {
+    grid-row-start: 1;
+    grid-row-end: 8;
+    grid-column-start: 4;
+  }
+
+  .itemCal2 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    background-position: center;
+  }
+
+  .itemCal6 {
+    grid-column-start: 3;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 8;
+  }
+
+  .itemCal5 {
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 8;
+  }
+}
+/* Peronalizacion de Buzos */
+.itemBu {
+  min-height: 200px;
+  min-width: 200px;
+  background-color: #90c9f7;
+  border: 5px solid #e6d0d0;
+}
+
+.itemBu:hover {
+  transform: scale(1.3);
+  transition: 0.7s;
+  filter: saturate(2);
+  filter: contrast(1.3);
+  box-shadow: 5px 5px 10px 1px #422121;
+}
+
+.itemBu1 {
+  grid-area: "itemBu1";
+  background-image: url(../../multimedia/imagenes/buzos/1.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.itemBu2 {
+  grid-area: "itemBu2";
+  background-image: url(../../multimedia/imagenes/buzos/2.png);
+  background-size: cover;
+}
+
+.itemBu3 {
+  grid-area: "itemBue3";
+  background-image: url(../../multimedia/imagenes/buzos/3.png);
+  background-size: cover;
+}
+
+.itemBu4 {
+  grid-area: "itemBu4";
+  background-image: url(../../multimedia/imagenes/buzos/4.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.itemBu5 {
+  grid-area: "itemBu5";
+  background-image: url(../../multimedia/imagenes/buzos/5.png);
+  background-size: cover;
+}
+
+.itemBu6 {
+  grid-area: "itemBu6";
+  background-image: url(../../multimedia/imagenes/buzos/6.png);
+  background-size: cover;
+  filter: brightness(1.3);
+}
+
+@media only screen and (min-width: 360px) {
+  .fondo {
+    background-color: #cdd4a3;
+  }
+}
+@media only screen and (min-width: 480px) {
+  .fondo {
+    background-color: #939989;
+    grid-template-columns: 1fr;
+  }
+
+  .mainPantalones {
+    height: auto;
+    padding-bottom: 2%;
+  }
+
+  .itemBu {
+    min-height: 200px;
+    min-width: 200px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .fondo {
+    background-color: #c5aa8a;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .itemBu1 {
+    grid-row-start: 1;
+    grid-row-end: 3;
+  }
+
+  .mainPantalones {
+    height: auto;
+    padding-bottom: 2%;
+  }
+
+  .itemBu4 {
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+
+  .itemBu2 {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    background-position: center;
+  }
+
+  .itemBu6 {
+    grid-column-start: 2;
+    grid-column-end: 4;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .fondo {
+    background-color: #966363;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .mainPantalones {
+    height: 80vh;
+  }
+
+  .itemBu1 {
+    grid-row-start: 1;
+    grid-row-end: 8;
+    grid-column-start: 1;
+    grid-column-end: 1;
+  }
+
+  .itemBu4 {
+    grid-row-start: 1;
+    grid-row-end: 8;
+    grid-column-start: 4;
+  }
+
+  .itemBu2 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    background-position: center;
+  }
+
+  .itemBu6 {
+    grid-column-start: 3;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 8;
+  }
+
+  .itemBu5 {
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 8;
+  }
+}
 
 /*# sourceMappingURL=firstmob.css.map */
