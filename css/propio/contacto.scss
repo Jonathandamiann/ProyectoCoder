@@ -94,6 +94,10 @@ $color: sazul; /* probe cambiando el valor de la variable color y funciona en na
 
 }
 
+.footerNosotros{
+  overflow: hidden;
+}
+
 @import "estilo.css";
 
 /* aca usé el import solamente para tener el boton de ws  flotando, no tengo ninguna clase en estilo.css que me sirva para la solapa contacto

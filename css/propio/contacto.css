@@ -8,13 +8,12 @@
   margin: 0;
   padding: 0;
   text-decoration: none;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .main {
   background-color: #44997d;
-  background-image: url(../../multimedia/imagenes/ImagenPrincipal.jpg);
+  background-image: url(multimedia/imagenes/ImagenPrincipal.jpg);
   background-position: left;
   background-size: cover;
   height: auto;
@@ -25,8 +24,7 @@
 .main__estilo {
   color: #4fe215;
   font-size: 25px;
-  -webkit-text-decoration: solid;
-          text-decoration: solid;
+  text-decoration: solid;
   font-family: "Oswald", sans-serif;
   text-transform: capitalize;
   text-shadow: aqua 1px 1px;
@@ -65,13 +63,16 @@
   text-align: center;
   text-transform: lowercase;
   line-height: 40px;
-  -webkit-text-decoration: solid;
-          text-decoration: solid;
+  text-decoration: solid;
   font-family: "Oswald", sans-serif;
   border: 3px solid #000c06;
   border-top: 1px;
   padding-left: 2%;
   padding-right: 2%;
+}
+
+.footerNosotros {
+  overflow: hidden;
 }
 
 /* aca usé el import solamente para tener el boton de ws  flotando, no tengo ninguna clase en estilo.css que me sirva para la solapa contacto
@@ -81,3 +82,5 @@
     right: 30px;
     background: transparent;
   }*/
+
+/*# sourceMappingURL=contacto.css.map */
