@@ -119,71 +119,15 @@ footer {
   width: 100%;
 }
 
-.item1 {
-  height: 150px;
-  width: 150px;
-  border: 2px dotted #000;
-  text-align: center;
-  font-family: cursive;
-  font-size: 20px;
-  line-height: 200px;
-  text-transform: uppercase;
-  background-image: url(../../multimedia/imagenes/pantalon1.jpg);
-  background-size: cover;
+.footerNosotros{
+  padding-left: 35%;
+  padding-bottom: 4px;
 }
 
-.item2 {
-  height: 150px;
-  width: 150px;
-  border: 2px dotted #000;
-  text-align: center;
-  font-family: cursive;
-  font-size: 20px;
-  line-height: 200px;
-  text-transform: uppercase;
-  /*background-image: url(multimedia/imagenes/pantalon2.jpg);*/
-  background-size: cover;
+.footerNosotros a{
+  margin-left: 2%;
+  
 }
-
-.item3 {
-  height: 150px;
-  width: 150px;
-  border: 2px dotted #000;
-  text-align: center;
-  font-family: cursive;
-  font-size: 20px;
-  line-height: 200px;
-  text-transform: uppercase;
-  /*background-image: url(multimedia/imagenes/pantalon3.jpg);*/
-  background-size: cover;
-}
-
-.item4 {
-  height: 150px;
-  width: 150px;
-  border: 2px dotted #000;
-  text-align: center;
-  font-family: cursive;
-  font-size: 20px;
-  line-height: 200px;
-  text-transform: uppercase;
-  /*background-image: url(multimedia/imagenes/pantalon4.jpg);*/
-  background-size: cover;
-}
-
-.item5 {
-  height: 150px;
-  width: 150px;
-  border: 2px dotted #000;
-  text-align: center;
-  font-family: cursive;
-  font-size: 20px;
-  line-height: 200px;
-  text-transform: uppercase;
-  /*background-image: url(multimedia/imagenes/pantalon5.jpg);*/
-  background-size: cover;
-}
-
 
 .itContact :hover {
   background: #7a7a2f;
