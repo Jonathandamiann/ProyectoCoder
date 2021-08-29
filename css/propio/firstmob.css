@@ -137,6 +137,7 @@
 
   .mainCamperas {
     height: 80vh;
+    padding-bottom: 20%;
   }
 
   .itemca1 {
@@ -650,6 +651,7 @@
 @media only screen and (min-width: 360px) {
   .fondo {
     grid-template-columns: 1fr;
+    height: auto;
   }
 }
 @media only screen and (min-width: 480px) {
@@ -705,6 +707,7 @@
 
   .mainPantalones {
     height: 80vh;
+    padding-bottom: 20%;
   }
 
   .itemBu1 {
