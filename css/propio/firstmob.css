@@ -610,39 +610,39 @@
 
 .itemBu1 {
   grid-area: "itemBu1";
-  background-image: url(../../multimedia/imagenes/buzos/1.png);
+  background-image: url(../../multimedia/imagenes/Buzos/1.png);
   background-size: cover;
   background-position: center;
 }
 
 .itemBu2 {
   grid-area: "itemBu2";
-  background-image: url(../../multimedia/imagenes/buzos/2.png);
+  background-image: url(../../multimedia/imagenes/Buzos/2.png);
   background-size: cover;
 }
 
 .itemBu3 {
   grid-area: "itemBue3";
-  background-image: url(../../multimedia/imagenes/buzos/3.png);
+  background-image: url(../../multimedia/imagenes/Buzos/3.png);
   background-size: cover;
 }
 
 .itemBu4 {
   grid-area: "itemBu4";
-  background-image: url(../../multimedia/imagenes/buzos/4.png);
+  background-image: url(../../multimedia/imagenes/Buzos/4.png);
   background-size: cover;
   background-position: center;
 }
 
 .itemBu5 {
   grid-area: "itemBu5";
-  background-image: url(../../multimedia/imagenes/buzos/5.png);
+  background-image: url(../../multimedia/imagenes/Buzos/5.png);
   background-size: cover;
 }
 
 .itemBu6 {
   grid-area: "itemBu6";
-  background-image: url(../../multimedia/imagenes/buzos/6.png);
+  background-image: url(../../multimedia/imagenes/Buzos/6.png);
   background-size: cover;
   filter: brightness(1.3);
 }
